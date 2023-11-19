@@ -1,0 +1,143 @@
+body, html{
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: relative;
+    height: 25rem;
+    width: 25rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.background{
+    flex: 1;
+
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    background-color: #219ebc;
+}
+
+.about{
+    position: relative;
+    flex: 2;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.aboutComp{
+    position: absolute;
+    height: 85%;
+    width: 100%;
+    top: 15%;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile{
+    position: absolute;
+    height: 10rem;
+    width: 10rem;
+    background-color: #219ebc;
+    border-radius: 5rem;
+    top: 1rem;
+    left: 7.5rem;
+}
+
+.profilePicture{
+    position: absolute;
+    height: 9.5rem;
+    width: 9.5rem;
+    background: url(./profilePicture.jpg);
+    background-size: cover;
+    top: 1rem;
+    left: 7.6rem;
+    border-radius: 5rem;
+    border: 3px solid white;
+}
+
+
+.name{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.name > p {
+    font-size: 1.4rem;
+    margin: 0%;
+}
+
+.profession{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+
+.profession > p {
+    margin: 0%;
+}
+
+.socialMediaLinks{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote{
+    flex: 2;
+    color: gray;
+    margin: 1rem;
+}
+
+.quote > p {
+    text-align: center;
+    color: #219ebc;
+}
+
+.socialMediaLinksComp{
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+
+.links{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links > a > img{
+    height: 1.5rem;
+}
+
+.github > a > img {
+    height: 1.8rem;
+}
+
+.linkedin > a > img {
+    height: 1.7rem;
+}
+
+.instagram > a > img {
+    height: 2rem;
+}
