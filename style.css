@@ -53,7 +53,7 @@ body{
     background-color: #219ebc;
     border-radius: 5rem;
     top: 1rem;
-    left: 7.5rem;
+    left: 7.7rem;
 }
 
 .profilePicture{
@@ -63,7 +63,7 @@ body{
     background: url(./profilePicture.jpg);
     background-size: cover;
     top: 1rem;
-    left: 7.6rem;
+    left: 7.8rem;
     border-radius: 5rem;
     border: 3px solid white;
 }
