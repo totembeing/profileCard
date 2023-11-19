@@ -141,3 +141,26 @@ body{
 .instagram > a > img {
     height: 2rem;
 }
+
+@media (max-width : 380px) {
+    .container{
+        height: 25rem;
+        width: 20rem;
+    }
+
+    .profile{
+        height: 9rem;
+        width: 9rem;
+        left: 6rem;
+    }
+
+    .profilePicture{
+        height: 8.5rem;
+        width: 8.5rem;
+        left: 6.1rem;
+    }
+
+    .name > p {
+        font-size: 1.4rem;
+    }
+}
