@@ -164,3 +164,26 @@ body{
         font-size: 1.4rem;
     }
 }
+
+@media (max-width : 330px) {
+    .container{
+        height: 25rem;
+        width: 18rem;
+    }
+
+    .profile{
+        height: 8.5rem;
+        width: 8.5rem;
+        left: 5rem;
+    }
+
+    .profilePicture{
+        height: 8rem;
+        width: 8rem;
+        left: 5.1rem;
+    }
+
+    .name > p {
+        font-size: 1.3rem;
+    }
+}
